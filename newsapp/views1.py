@@ -11,7 +11,7 @@ title = []
 desc = []
 url = []
 content = []
-r = requests.get("https://newsapi.org/v2/top-headlines?sources=the-hindu&apiKey=dcec54f89dc3408fbfab631139c830aa")
+r = requests.get("https://newsapi.org/v2/top-headlines?sources=the-hindu&apiKey=newsapikey")
 json_string = r.text
 dict = json.loads(json_string)
 
