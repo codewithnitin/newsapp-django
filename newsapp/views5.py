@@ -11,7 +11,7 @@ title = []
 desc = []
 url = []
 content = []
-r = requests.get("https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=dcec54f89dc3408fbfab631139c830aa")
+r = requests.get("https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=newsapikey")
 json_string = r.text
 dict = json.loads(json_string)
 
